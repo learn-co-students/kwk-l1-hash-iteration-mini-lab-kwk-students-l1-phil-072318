@@ -30,7 +30,7 @@ describe "add_a_key_value_pair" do
     expect(hash[:Athens].to_str).to eq("2004"), "The key Athens does not refer to the value 2004 or '2004'"
     expect(hash[:Beijing].to_str).to eq("2008"), "The key Beijing does not refer to the value 2008 or '2008'"
     expect(hash[:London].to_str).to eq("2012"), "The key London does not refer to the value 2012 or '2012'"
-    expect(hash[:Atlanta].to_str).to eq("1996"), "The key London does not refer to the value 1996 or '1996'"
+    expect(hash[:Atlanta].to_str).to eq("1996"), "The key Atlanta does not refer to the value 1996 or '1996'"
   end
 end
 
